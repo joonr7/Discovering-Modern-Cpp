@@ -1,9 +1,12 @@
 # Discovering-Modern-Cpp
 Book: Discovering Modern Cpp - An Intensive Course for Scientists, Engineers, and Programmers   
 
-# Build & Run
+# Build & Run with Colcon
+`colcon` is required. (Installing ros2 is helpful.)  
+I think there should be another way to build my code.   
+  
 ```bsh
-user@computer:~/Discovering-Modern-Cpp$ cb
+user@computer:~/Discovering-Modern-Cpp$ colcon build
 Starting >>> exercise1-1
 Starting >>> sample
 Finished <<< exercise1-1 [0.40s]                                                            
